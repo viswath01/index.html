@@ -1,0 +1,103 @@
+<html>
+<head>
+<style>
+body {
+    background-color: #F3E8FF;
+    font-family: Arial;
+    margin: 0;
+}
+
+#banner {
+    background-color: #6A0DAD;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#details {
+    display: flex;
+    gap: 30px;
+    margin: 30px;
+}
+
+#event-details {
+    border: 3px solid #6A0DAD;
+    background-color: #E6D5FF;
+    padding: 20px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+#registration-events {
+    border: 3px solid #6A0DAD;
+    background-color: #FADADD;
+    padding: 20px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    color: #4B0082;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #8A2BE2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+}
+
+button:hover {
+    background-color: #4B0082;
+}
+
+@media screen and (max-width: 600px) {
+    #details {
+        flex-direction: column;
+    }
+
+    #event-details,
+    #registration-events {
+        width: auto;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div id="banner">
+    <h1>STC | Pollachi</h1>
+    <h2>TARANG</h2>
+    <p>It is inter college meet fest, doing on 09-10-2026</p>
+</div>
+
+<div id="details">
+    <div id="event-details">
+        <h1>Event Details</h1>
+        <h3>Quiz</h3>
+        <h3>Connection</h3>
+        <h3>Dancing</h3>
+    </div>
+
+    <div id="registration-events">
+        <h1>Registration Details</h1>
+        <h3>Registration fee is 150. It can be ended on 08-10-2026</h3>
+    </div>
+</div>
+
+<br>
+<button>Submit</button>
+<br>
+
+</body>
+</html>
